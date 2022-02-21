@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> <title> Fidaa Alsawaf </title>  
+<link rel="shortcut icon" href="C:\Users\fofoa\OneDrive\Desktop\vintage-flower-png-2.png">
+<style>
+@import "http://webfonts.ru/import/notcourier.css";
+
+body{   background: #f6d9cb;
+}
+
+.lower{
+  width:340px;
+  margin:10% auto;
+  padding:50px;
+  background:white;
+  opacity:0.8;
+  color:black;
+  box-shadow:inset 0 0 0 1px black;
+  border:30px solid white;
+}
+
+.lower:hover{
+  background:black;
+  color:white;
+  box-shadow:inset 0 0 0 1px white;
+  border:30px solid black;
+}
+
+input{
+  display:none;
+}
+
+.lower label{
+  font-family: 'NotCourierSans';
+  text-transform:uppercase;
+  font-size:40px;
+  text-align:center;
+}
+
+.lower label:hover{
+  cursor:pointer;
+}
+
+.overlay{
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	background: rgba(0,0,0,0.9);
+}
+
+.overlay label{
+	width: 58px;
+	height:58px;
+	position: absolute;
+	right: 20px;
+	top: 20px;
+	background: color #8c8973;
+	z-index: 100;
+  cursor:pointer;
+}
+
+.overlay nav {
+	text-align: center;
+	position: relative;
+	top: 50%;
+	height: 60%;
+	font-size: 54px;
+	-webkit-transform: translateY(-50%);
+	transform: translateY(-50%);
+}
+
+.overlay ul {
+	list-style: none;
+	padding: 0;
+	margin: 0 auto;
+	display: inline-block;
+	height: 100%;
+	position: relative;
+}
+
+.overlay ul li {
+	display: block;
+	height: 20%;
+	height: calc(100% / 5);
+	min-height: 54px;
+}
+
+.overlay ul li a {
+	font-weight: 300;
+	display: block;
+	color: white;
+  text-decoration:none;
+	-webkit-transition: color 0.2s;
+	transition: color 0.2s;
+  font-family: 'NotCourierSans';
+  text-transform:uppercase;
+}
+
+.overlay ul li a:hover,
+.overlay ul li a:focus {
+	color: #849368;
+}
+
+.lower~.overlay-hugeinc{
+	opacity: 0;
+	visibility: hidden;
+	-webkit-transition: opacity 0.5s, visibility 0s 0.5s;
+	transition: opacity 0.5s, visibility 0s 0.5s;
+}
+
+#op:checked~.overlay-hugeinc{
+	opacity: 1;
+	visibility: visible;
+	-webkit-transition: opacity 0.5s;
+	transition: opacity 0.5s;
+}
+
+.overlay-hugeinc nav {
+	-moz-perspective: 300px;
+}
+
+.overlay-hugeinc nav ul {
+	opacity: 0.4;
+	-webkit-transform: translateY(-25%) rotateX(35deg);
+	transform: translateY(-25%) rotateX(35deg);
+	-webkit-transition: -webkit-transform 0.5s, opacity 0.5s;
+	transition: transform 0.5s, opacity 0.5s;
+}
+
+#op:checked~.overlay-hugeinc nav ul {
+	opacity: 1;
+	-webkit-transform: rotateX(0deg);
+	transform: rotateX(0deg);
+}
+
+#op:not(:checked)~.overlay-hugeinc nav ul {
+	-webkit-transform: translateY(25%) rotateX(-35deg);
+	transform: translateY(25%) rotateX(-35deg);
+}
+</style>
+</head>
+<body>
+<br /><center>
+<input type="checkbox" id="op"></input>
+<div class="lower">
+  <label for="op">about me</label>
+</div>
+<div class="overlay overlay-hugeinc">
+			<label for="op"></label>
+			<nav>
+		<ul>
+			<li><a href="file:///C:/Users/fofoa/OneDrive/Desktop/protfolio.html">home</a></li>
+			<li><a href="file:///C:/Users/fofoa/OneDrive/Desktop/aboutme.html">about me</a></li>
+			<li><a href="file:///C:/Users/fofoa/OneDrive/Desktop/poetry.html">poetry</a></li>
+			<li><a href="file:///C:/Users/fofoa/OneDrive/Desktop/contactme.html">contact me</a></li>
+		</ul>
+			</nav>
+</div></center>
+<hr color=#73768c><br>
+ <center>
+<img src ="C:\Users\fofoa\OneDrive\Desktop\64-642475_vintage-pink-vintage-flower-borders-png.png"
+        height = "170" width = "520" /></center> 
+<br /><br /><br />
+		 <h3 style="font-side:30px margin-left:40px; color:#b14e8e"> <!--- <img src = "C:\Users\fofoa\OneDrive\Desktop\unnamed1.jpg"
+         alt = "picture of my favorite hs teacher" height = "430" width = "450" align="left"> 
+		 style="align: right-bottom ;margin: 10px; width:100px; height:75px; padding:10px; border:5px solid black;"
+		 ----> &nbsp; 
+		
+		
+		<body>
+		<p> I am Fidaa Alsawaf, I am an undergad student in Computer Science.
+		I love to fill my time 
+		 up finishing projects. I am an artist, I create art in its every possible form. 
+		 I love seeing everything with a optimistic pov. Talking about what I will achieve is something I decided to keep 
+		 off this page, because that is unpromised. I would say I am the most outgoing person I know. I am a people's person. 
+		 Human communication is something I didn't know I was good at until I graduated high school and had to face real world 
+		 struggles. </p> 
+		 <p  style= "font-size: 17px"> I have a love for all things nature. The ocean is my comfort spot. I am vegan, and I love animals. Even reptiles, I think they're the most gorgeous creatures God created. 
+		 Of course, I haven't had a pet reptile, so I have no idea how I'd be around them. But lion is the other animal that I adore. </p>
+		 
+		 </body>
+</html>
